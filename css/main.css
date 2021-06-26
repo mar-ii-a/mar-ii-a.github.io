@@ -1,3 +1,8 @@
+body,h1,h2,h3,h4,h5, p {
+    font-family: 'Inconsolata', sans-serif;
+    color: black;
+  }
+
 .index-header {
     font-family: 'Inconsolata', sans-serif;
     color: black;
@@ -10,4 +15,75 @@
     color: black;
     font-size: x-large;
     margin-top: 0px;
+}
+
+.project-image{
+    background-position: center;
+    background-size:cover;
+    background-color: transparent;
+    height: 220px;
+}
+
+.project_description {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.pricing-table{
+    border: none !important;
+    padding: 0px !important;
+}
+
+.logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+.nav-logo {
+    text-align: left;
+    margin-left: 10px;
+    margin-top:15px
+}
+.title-header {
+    text-align: left;
+    margin-left: 10px
+}
+.title-subtitle{
+    font-size: 20px; 
+    font-weight:500;
+    margin-bottom: 5px;
+    font-family: 'Roboto' ;
+}
+
+.nav-links {
+    font-family: 'Inconsolata', sans-serif;
+    color: black;
+    float: right;
+}
+
+.nav-bar {
+    margin-bottom: 0px;
+}
+
+
+.about-header {
+    font-family: 'Inconsolata', sans-serif;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.about-sub_header {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.about-image-div {
+    padding: 15px;
+}
+
+.about-image {
+
 }
