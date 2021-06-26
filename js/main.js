@@ -125,6 +125,10 @@ switch(window_path) {
       set_project_rows();
       set_navigation_links();
       break;
+    case "/project_page":
+    case "/project_page.html":
+        set_navigation_links();
+        break;
     default:
       console.log("where are you?");
   }
