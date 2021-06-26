@@ -205,3 +205,21 @@ body,h1,h2,h3,h4,h5, p {
 .projects-principles-row {
     background:  #d3d8ea;
 }
+
+#project-contact-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-left {
+}
+.footer-left > p {
+    color: blanchedalmond;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.footer-right {
+
+}
