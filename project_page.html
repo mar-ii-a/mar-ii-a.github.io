@@ -5,111 +5,370 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive pricing table.">
-    <title>Maria Munir &ndash; Test Project</title>
+    <title>Maria Munir &ndash; The Welcome Wagon</title>
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://purecss.io/css/pure/pure-min.css">
     <link rel="stylesheet" href="https://purecss.io/css/pure/grids-responsive-min.css">
     <link rel="stylesheet" href="https://purecss.io/layouts/pricing/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 
     <style>
-        body,h1,h2,h3,h4,h5, p {
-            font-family: 'Inconsolata', sans-serif;
-            color: black;
-          }
-        div.image_a{
-            content: url('https://via.placeholder.com/1024x768');
-            max-height:256px;
-            max-width: 341px; 
-        }
-        .test {
-            background-image: url('./assets/projects/the_welcome_wagon/cover72ppi.png');
-            background-position: center;
-            background-size:contain;
-            background-repeat: no-repeat;
-            background-color: transparent;
-        }
-        .domo {
-            font-family: 'Roboto' ;
-        }
-        .pricing-table{
-            border: none !important;
-        }
-		.logo {
-            max-height: 50px;
-            max-width: 50px;
-        }
-		.nav-logo {
-			text-align: left;
-			margin-left: 10px;
-			margin-top:15px
-		}
     </style>
 </head>
 <body>
     <!-- Menu -->
 
-<div class="pure-menu-horizontal pricing-tables" style="margin-bottom: 0px;">
-	<div class="pure-u-1 pure-u-md-3-3 nav-logo">
-       		<a href="./index.html">
-        <img class="logo pure-menu-item" src="./assets/logo.png" alt="Logo" style="">
-        </a>
-        <ul class="pure-menu-list" style="float: right;">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Work</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li> 
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-        </ul>
+    <div class="pure-menu-horizontal pricing-tables nav-bar">
+        <!-- Menu logo -->
+        <div class="pure-u-1 pure-u-md-3-3 nav-logo">
+            <a href="/">
+                <img class="logo pure-menu-item" src="./assets/logo.png" alt="Logo">
+            </a>
+            <ul class="pure-menu-list nav-links" id="navigation_links">
+                <!-- to inject navigation links -->
+            </ul>
+        </div>
     </div>
-</div>
 
 <div class="l-content">
     
+    <div class="pricing-tables pure-g" id="index_header_content">
+        <div class="pure-u-1 pure-u-md-3-3 project-title" >
+            <div>
+                <h1 class="project-header"><span>The Welcome Wagon</span></h1>
+                <p class= "index-sub_header">
+                    For my third year Design Studio, I was tasked with creating a housing system that is designed foradaption and construction by its users.
+                    This project involved secondary research and iterative designing. Our system consists of a mobile smart core which contains a kit of parts for a self-build house.</p>
+            </div>
+        </div>
+    </div>
+
     <div class="pricing-tables pure-g">
         
-        <div class="pure-u-1 pure-u-md-3-3" style="text-align: center; margin-left: 10px" >
-            <div class="header">
-                <h1 class="domo" style="font-weight: 500;  margin-bottom: 30px">Maria Munir</h1>
-                <p style="font-size: 20px; font-weight:400; margin-bottom: 15px; text-align: left" class="domo">For my third year Design Studio, I was tasked with creating a  housing system that is designed for adaption and construction by its users. This project involved secondary research and iterative designing. Our system consists of a mobile smart core which contains a kit of parts for a self-build house.</p>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/cover35ppi.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+                <p class="project-sub-header">
+                    <strong>Timeline</strong>: 3 Months<br>
+                    <strong>Partner</strong>: Hiba Zubairi<br>
+                    <strong>Instructor</strong>: Jonathan Enns (ARCH 393)<br>
+                </p>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1 project-results-div">
+            <div class="pricing-table">
+                <p class="project-results-header"><strong>Results</strong>:<br>                </p>
+                <p class="project-results">
+                    Our team revieved positive feedback in our final design review,
+                    and we were commended for our rigour in understanding the users of our system and in
+                    our approach to reframe mobile housing.
+                    This project was featured on the Waterloo Architecture Instagram page. 
+                </p>
             </div>
         </div>
 
         <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Background</p>
+            </div>
             <div class="pricing-table" style="padding: 0px;">
-                <a href="#">
-                <div class="pricing-table-header test">
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <span class="pricing-table-price" style="opacity: 0%;">
-                        $25 <span style="opacity: 0%;">per month</span>
-                    </span>
-                </div>
-                </a>
-                <p style="text-align: left; font-size: 18px" class="domo">
-                    Hello this is a paragraph and i am testing an explanation of many lines
-                    and more lines perhaps a third line and many 
+                <img src="./assets/projects/the_welcome_wagon/reserach0.5x.png" alt="" class="pure-img">
+            </div>
+            <div class="pricing-table">
+                <p class="project-image-caption">
+                    Left: (1) Trailer Park Homes, Leah Nash, 2009 (2) Nest We Grow, Kengo Kuma, 2014, (3)Ecolab, Office of Mobile Design, 1998, (4) Portable House APH80, Abaton Arquitectura, 2014, (5) An Australian Tiny Home, CABN 2017, Residence Huga, Grandio, 2019, (5) Ibtasem Playground, Catalyctic Action, 2015
+                </p>
+                <p class="project-image-caption">
+                    Right: (1) Expandable House, Urban Rural Systems, 2018, (2) Beirut Blast, Rami Rizk, 2020,  (3) PH - Paroissien Home, Ottone-Victorica Arquitectos 2020, (4) Protohomes, 1969-70s, (5) Chicago Archiecture Biennial, Tatiana Bilbao, 2015, (6) Road Runner, Office of Mobile Design, 2006, (7) Mosque-Cathedral of Cordoba, 785-1575, (8) Versailles Apartment, Catseye Bay Design, 2016
+                </p>
+                <p class="project-image-caption">
+                    In both cases, citations are listed left to right, and top to bottom (in that order).
+                </p>
+            </div>
+            <div class="pricing-table">
+                <p class="project-image-text">
+                    The initial research for the project consisted of a wide evaluation of architectural systems which have adaptable both over time,
+                    and through use.
+                    We strived to find solutions which were either self build or hackable to understand how users can engage with architecture.
                 </p>
             </div>
         </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Project Context</p>
+            </div>
+
+            <div class="pricing-table">
+                <p class="project-context-text">
+                    People from all over the world can be found
+                    in Canada, practicing their own cultural traditions
+                    and proudly honing their identities
+                    while successfully operating within Canadian
+                    society. However, certain factors in our
+                    built environment and wealth distribution
+                    patterns forces Canadian immigrants to remain
+                    in less than satisfactory, expensive
+                    and undignified housing. From small one bedroom
+                    apartments housing five member families
+                    to basements being occupied by seven
+                    to eight young people, the plethora of cultural
+                    exposure, strength of community and
+                    available resources are significantly stunted
+                    for immigrants who cannot afford housing
+                    in a growingly steep market. The Welcome
+                    Wagon, beta tested in Almonte, Ontario, is
+                    a community settlement scheme which seeks
+                    to provide immigrant families the ability
+                    to maintain their strong cultural networks
+                    while also increasing their likelihood of
+                    employment, self-run businesses, home ownership
+                    and class mobility. For this reason,
+                    the program is specifically geared towards
+                    new immigrants who are having trouble finding
+                    jobs and providing a sustainable income
+                    for their dependents.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Frameworks</p>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/p1-framworks.png" alt="" class="pure-img project-framework-image">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <p class="project-results">
+                    Based on the housing types and descriptions found through our reserach,
+                    my partner and I sketched out base frameworks to help us understand the direction
+                    to move forward in based on our constraints and users. 
+                </p>
+            </div>
+        </div>
+        
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Persona</p>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/persona72ppi.png" alt="" class="pure-img project-framework-image">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <p class="project-results">
+                    Based on our research I created an illustration for the persona of Valentina Acuna.
+                    She is a 31 year old Columbia born immigrant who, along with her six year old daughter,
+                    and two middle-aged parents. 
+                </p>
+            </div>
+            <div class="pricing-table project-persona-div" style="padding: 0px;">
+                <p class="persona-text">
+                    Her primary goals are finding a safe neighbourhood for her daughter and a community where her whole family feels like they belong and can contribute.
+                    Her current pains include lack of job stability, difficulty finding affordable options in the city,
+                    and an inhospitable landlord in her basement apartment. Her needs and desires include finding a place where she is able to make changes for her family
+                    as they grow and easily acessible greenspace for her parents to garden or homestead.
+                    She was a prior languages teacher so she is skilled in communication and translation. In Columbia, her father was a mason so she is familiar with power tools and unafraid of building, however she isn’t familiar with wood construction.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">5 Principles of Design</p>
+            </div>
+        </div>
+
+        <div class="pure-g pricing-table projects-principles-row">
+            <div class="pure-u-1 pure-u-md-1-5">
+                <div>
+                    <img src="./assets/projects/the_welcome_wagon/5PS 1_150ppi.png" alt="" class="pure-img">
+                </div>
+                <ol>
+                    <li class="project-designs-title">
+                        Mobile Smart Core
+                    </li>
+                </ol>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-5">
+                <div>
+                    <img src="./assets/projects/the_welcome_wagon/5PS 2_150ppi.png" alt="" class="pure-img">
+                </div>
+                <ol start="2">
+                    <li class="project-designs-title">
+                        Flexible Grid
+                    </li>
+                </ol>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-5">
+                <div>
+                    <img src="./assets/projects/the_welcome_wagon/5PS 3_150ppi.png" alt="" class="pure-img">
+                </div>
+                <ol start="3">
+                    <li class="project-designs-title">
+                        Community Build
+                    </li>
+                </ol>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-5">
+                <div>
+                    <img src="./assets/projects/the_welcome_wagon/5PS 4_150ppi.png" alt="" class="pure-img">
+                </div>
+                <ol start="4">
+                    <li class="project-designs-title">
+                        Open Source
+                    </li>
+                </ol>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-5">
+                <div>
+                    <img src="./assets/projects/the_welcome_wagon/5PS 5_150ppi.png" alt="" class="pure-img">
+                </div>
+                <ol start="5">
+                    <li class="project-designs-title">
+                        Variable Affordability
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+             <div class="pricing-table" style="padding: 0px;">
+                <p class="persona-text">
+                    These principles guided us through the design of the wagon, and represent the priorities of the project.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Kit of Parts</p>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/KOP.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+               <p class="persona-text">
+                I created the Kit of Parts diagram to show the elements of the system and the breakdown between elements included in
+                the inital smart core, and the open source elements which are included in a
+                build guide given to residents.
+               </p>
+           </div>
+       </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Self build User Narrative </p>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+               <p class="persona-text">
+                I created the following narrative, in collaboartion with my partner in formating and developing the visual
+                style, to represent the build journey of the persona Valentina Acuna. 
+               </p>
+           </div>
+       </div>
+
+
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f01.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f02.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f03.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f04.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f05.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f06.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f07.png" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/the_welcome_wagon/Cjourney-f08.png" alt="" class="pure-img">
+            </div>
+        </div>
+
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">Next Steps and Evaluation</p>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+               <p class="persona-text">
+                If we were to move forward with this project, we would  beta test this with users using VR and further
+                develop the 3D model we created as we were designing this system.
+                Based on this feedback the system could be further refined and we would be able to verify some of the assumptions
+                we had to make early on since primary reserach, such as user interviews, was not in the scope of this course.
+               </p>
+               <p class="persona-text">
+                I would love to talk more about this this project! If you have any questions, or would like to hear more
+                contact me <a id="project-contact-link" href="mailto:maria.munir.uwaterloo.ca">here</a>.
+               </p>
+           </div>
+       </div>
     </div>
 
+    
     
     <!-- end pricing-tables -->
 
 </div> <!-- end l-content -->
 
 <div class="footer l-box">
-    <p>
-        <a href="#">Try now</a> for 14 days. No credit card required. Header image courtesy of <a href='http://unsplash.com/'>Unsplash</a>.
-    </p>
+    <div class="pure-g">
+        <div class="pure-u-md-1-1 footer-left">
+            <p class= "">Contact me: maria.munir@uwaterloo.ca <br>
+                    check out my LinkedIn, arch portfolio, Resume
+        </p>
+        </div>
+    </div>
 </div>
 
 </body>
+<script src="./js/main.js"></script>
 </html>
