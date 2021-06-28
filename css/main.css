@@ -170,6 +170,12 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto';
     text-align: left;
 }
+.project-strategy-text{
+    font-size: 18px; 
+    margin-bottom: 5px;
+    font-family: 'Inconsolata';
+    text-align: left;
+}
 
 .project-framework-image {
     margin-left: auto;
@@ -209,6 +215,11 @@ body,h1,h2,h3,h4,h5, p {
 #project-contact-link {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+}
+#footer-link {
+    text-decoration: none;
+    color: blanchedalmond;
     font-weight: 500;
 }
 

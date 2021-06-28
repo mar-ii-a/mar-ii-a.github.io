@@ -21,8 +21,8 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
             },
             {
-                'href': '/project_page.html',
-                'descriptions':'Project: Welcome Wagon!',
+                'href': '/project_page-2.html',
+                'descriptions':'Project: Shared Space!',
                 'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
             {
