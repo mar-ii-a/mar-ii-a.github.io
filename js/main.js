@@ -26,15 +26,15 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
             {
-                'href': '/project_page.html',
-                'descriptions':'Project: Welcome Wagon!',
+                'href': '/project_page_3.html',
+                'descriptions':'Project: Plug and Play!',
                 'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
             }
         ];
     let bottom_row_projects =
         [
             {
-                'href': '/project_page.html',
+                'href': '/project_page_4.html',
                 'descriptions':'Lorem ipsum dolor <strong>sit</strong> amet consectetur adipisicing elit. Voluptas ex totam laboriosam debitis minima quia non consectetur deserunt, beatae aspernatur cumque odit voluptates facilis nam, dolores quo nobis itaque necessitatibus?' ,
                 'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
             },

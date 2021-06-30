@@ -94,9 +94,7 @@ body,h1,h2,h3,h4,h5, p {
     width:450px
 }
 
-.project-header-content{
 
-}
 
 .project-title {
     text-align: left;
@@ -237,6 +235,9 @@ body,h1,h2,h3,h4,h5, p {
 
 .image-qual {
    image-rendering: pixelated;
-    max-width:200%
-    height: auto
+    max-width:200%;
+    height: auto;
+}
+.image-legend{
+    max-width: 60%;
 }
