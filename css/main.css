@@ -7,7 +7,8 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Inconsolata', sans-serif;
     color: black;
     font-weight: 800;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .index-sub_header{
@@ -25,17 +26,33 @@ body,h1,h2,h3,h4,h5, p {
     background-position: center;
     background-size:cover;
     background-color: transparent;
-    height: 220px;
+    height: 260px;
 }
 
 .project_description {
     text-align: left;
-    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+}
+
+.project_description_subtitle {
+    text-align: left;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .pricing-table{
     border: none !important;
     padding: 0px !important;
+}
+
+.pricing-tables, .information {
+    max-width: 1080px;
 }
 
 .logo {
@@ -49,12 +66,17 @@ body,h1,h2,h3,h4,h5, p {
 }
 .title-header {
     text-align: left;
-    margin-left: 10px
+    margin-left: 10px;
+}
+
+.index-header-content {
+    text-align: left;
+    margin-left: 10px;
 }
 
 .title-subtitle{
     font-size: 20px; 
-    font-weight:800;
+    font-weight:700;
     margin-bottom: 5px;
     font-family: 'Roboto' ;
 }
@@ -222,15 +244,19 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .footer-left {
-}
-.footer-left > p {
     color: blanchedalmond;
     font-family: 'Roboto';
     font-size: 14px;
+    margin: 0px;
+    text-align: left;
 }
 
 .footer-right {
-
+    color: blanchedalmond;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0px;
+    text-align: right;
 }
 
 .image-qual {
@@ -241,3 +267,42 @@ body,h1,h2,h3,h4,h5, p {
 .image-legend{
     max-width: 60%;
 }
+
+#index_header_content{
+    margin-bottom: 0px;
+}
+
+#project_display_top_row{
+    margin-bottom: 0px;
+}
+
+#project_display_bottom_row_title{
+    margin-bottom: 15px;
+}
+
+.index-header-content > p:last-of-type{
+    margin-bottom: 0px;
+}
+
+.footer > .pricing-tables {
+    margin-bottom: 0px;
+}
+
+.footer-empty-content {
+    width: 33%;
+}
+
+.footer-content {
+    color: blanchedalmond !important;
+}
+
+.highlighted-text {
+    background-color:  #d3d8ea;
+    padding: 7px 4px 0px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* .footer-left, .footer-right {
+      text-align: center;
+    } */
+  }
