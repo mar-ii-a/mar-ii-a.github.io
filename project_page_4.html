@@ -5,140 +5,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive pricing table.">
-    <title>Maria Munir &ndash; Test Project</title>
-    <!-- Stylesheets -->
+    <title>Maria Munir &ndash; Plug and Play</title>
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://purecss.io/css/pure/pure-min.css">
     <link rel="stylesheet" href="https://purecss.io/css/pure/grids-responsive-min.css">
     <link rel="stylesheet" href="https://purecss.io/layouts/pricing/styles.css">
-    <!-- End of Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css">
 
     <style>
-        body,h1,h2,h3,h4,h5, p {
-            font-family: 'Inconsolata', sans-serif;
-            color: black;
-          }
-        div.image_a{
-            content: url('https://via.placeholder.com/1024x768');
-            max-height:256px;
-            max-width: 341px; 
-        }
-        .test {
-            background-image: url('./assets/projects/parkin/Grand-River Siteplan.jpg');
-            background-position: center;
-            background-size:contain;
-            background-repeat: no-repeat;
-            background-color: transparent;
-			
-        }
-        .domo {
-            font-family: 'Roboto' ;
-        }
-        .pricing-table{
-            border: none !important;
-        }
-        .logo {
-            max-height: 50px;
-            max-width: 50px;
-        }
-		.nav-logo {
-			text-align: left;
-			margin-left: 10px;
-			margin-top:15px
-		}
-		.title-header {
-			text-align: left;
-			margin-left: 10px
-		}
-		.title-subtitle{
-			font-size: 20px; 
-			font-weight:500;
-			margin-bottom: 5px;
-			font-family: 'Roboto' ;
-
-		}
     </style>
 </head>
 <body>
+    <!-- Menu -->
 
-<div class="pure-menu-horizontal pricing-tables" style="margin-bottom: 0px;">
-    <div class="pure-u-1 pure-u-md-3-3" style="text-align: left; margin-left: 10px; margin-top:15px">
-			<a href="./index.html">
-        <img class="logo pure-menu-item" src="./assets/logo.png" alt="Logo" style="">
-		</a>
-        <ul class="pure-menu-list" style="float: right;">
-            <li class="pure-menu-item pure-menu-selected"><a href="./index.html" class="pure-menu-link">Work</a></li>
-            <li class="pure-menu-item"><a href="./about.html" class="pure-menu-link">About</a></li> 
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-        </ul>
+    <div class="pure-menu-horizontal pricing-tables nav-bar">
+        <!-- Menu logo -->
+        <div class="pure-u-1 pure-u-md-3-3 nav-logo">
+            <a href="/">
+                <img class="logo pure-menu-item" src="./assets/logo.png" alt="Logo">
+            </a>
+            <ul class="pure-menu-list nav-links" id="navigation_links">
+                <!-- to inject navigation links -->
+            </ul>
+        </div>
     </div>
-</div>
 
 <div class="l-content">
     
+    <div class="pricing-tables pure-g" id="index_header_content">
+        <div class="pure-u-1 pure-u-md-3-3 project-title" >
+            <div>
+                <h1 class="project-header"><span>Master Planning, Cancer Centre and Hospital Design</span></h1>
+                <p class= "index-sub_header">
+                    During my work term at Parkin architects, I worked on a variety of projects within the healthcare field. 
+                    The detailed imagery of this work is confidential however, I can describe the processes I took. 
+                    My role included creating presentations for user and stakeholder meetings, and adjusting design layouts based on client and user feedback, and design research.</p>
+            </div>
+        </div>
+    </div>
+
     <div class="pricing-tables pure-g">
         
-        <div class="pure-u-1 pure-u-md-3-3" style="text-align: center; margin-left: 10px" >
-            <div class="header">
-                <h1 class="domo" style="font-weight: 500;  margin-bottom: 30px"> Master Planning, Cancer Centre and Hospital Design </h1>
-                <p style="font-size: 20px; font-weight:400; margin-bottom: 15px; text-align: left" class="domo">During my work term at Parkin architects, I worked on a variety of projects within the healthcare field. 
-                    The detailed imagery of this work is confidential however, I can describe the processes I took. My role included creating presentations for user 
-                    and stakeholder meetings,  and adjusting design layouts  based on client and user feedback, and design research.</p>
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table" style="padding: 0px;">
+                <img src="./assets/projects/parkin/Grand-River Siteplan.jpg" alt="" class="pure-img">
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-1">
+                <p class="project-sub-header">
+                    <strong>Timeline</strong>: 8 Months (to be complete in August 2021)<br>
+                    <strong>Team</strong>: Various teams throughout the term<br>
+                    <strong>Roles</strong>: Creator of 3D models, designer, site and code analysis/research, wayfinding, visual production, consultant coordinator<br>
+                </p>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-1">
+            <div class="pricing-table">
+                <p class= "project-background-title">My Role</p>
+            </div>
+
+            <div class="pricing-table">
+                <p class="project-context-text">
+                    During my work term at Parkin Architects, I worked on a many healthcare centred projects from a cancer centre and seven-storey hospital in Nova Scotia to strategic master plan of the Kitchener-Waterloo hospital in Ontario. <br> <br>
+
+                    I collaborated with multiple teams and took on different roles throughout my time at Parkin. Early on I worked on the design of a cancer centre and created modular design components to simply the design and construction of numerous rooms in the building. 
+                    Later, I took a leading role in the swapping of hundred of pieces of equipment and their data and coordinated with consultants to meet the user’s needs and desires. <br> <br>
+                    
+                    Afterwards, I worked with senior interior designers to create interior visualizations using Revit and SketchUpfor stakeholder and user group meetings for key areas of a 7 story hospital.
+                    I also worked in detail on the design of an OR room and created presentation material so design team and surgeons could communicate to create an ideal layout for their use. <br> <br>
+
+                    I was also given the opportunity to work on a high-level strategic master plan of 10 and 20 years of Grand River Kitchener-Waterloo hospital. I was on a small team for this project, and involved in research, design, presentations, and analysis.
+                    The project began with a study of design constraints, local history, and needs of the hospital. I continued to work on analyzing the how to strategize the desired growth over time, and created presentation material to evaluate and engage the user groups and stakeholders with the design. <br>
+
+                </p>
             </div>
         </div>
 
         <div class="pure-u-1 pure-u-md-1-1">
             <div class="pricing-table" style="padding: 0px;">
-                <a href="#">
-                <div class="pricing-table-header test">
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <h2 style="opacity: 0%;">Small Business</h2>
-                    <span class="pricing-table-price" style="opacity: 0%;">
-                        $25 <span style="opacity: 0%;">per month</span>
-                    </span>
-                </div>
-                </a>
-                <p style="text-align: center; font-size: 18px" class="domo">
-                    Diagram from Parkin Architects 
-                </p>
-				<p style="text-align: left; font-size: 18px" class="domo">
-                    Duration: 8 Months (to be complete in August 2021)
-                </p>
-				<p style="text-align: left; font-size: 18px" class="domo">
-                    Team: Various teams throughout the term 
-                </p>
-				<p style="text-align: left; font-size: 18px" class="domo">
-                    My Role: Creator of 3D models, designer, site and code analysis/research, wayfinding, visual production, consultant coordinator 
-                </p>
-				</p>
-				<p style="text-align: left; font-size: 18px" class="domo">
-                    My Role 
-                </p>
-				</p>
-				<p style="text-align: left; font-size: 18px" class="domo">
-                    Lorem "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
-                </p>
-				p style="text-align: left; font-size: 18px" class="domo">
-                    To learn more about this experience contact me here! 
-                </p>
-            </div>
-        </div>
+               <p class="persona-text">
+                I would love to talk more about this these projects! If you have any questions, or are interested in working together,
+                contact me <a id="project-contact-link" href="mailto:maria.munir.uwaterloo.ca">here</a>.
+               </p>
+           </div>
+       </div>
     </div>
 
+    
     
     <!-- end pricing-tables -->
 
 </div> <!-- end l-content -->
 
+<div class="footer l-box">
+    <div class="pure-g">
+        <div class="pure-u-md-1-1 footer-left">
+            <p class= "">Contact me: maria.munir@uwaterloo.ca <br>
+                    Take a look at my:  <a id="project-contact-link" href="https://www.linkedin.com/in/maria-munir/">LinkedIn</a>, <a id="project-contact-link" href="issuu.com/mariamunir/docs/maria-munir-fall-2020-portfolio">Architecture Portfolio</a>, and Resume<a id="project-contact-link" href="issuu.com/mariamunir/docs/maria-munir-fall-2020-portfolio">Resume</a>!
+        </p>
+        </div>
+    </div>
+</div>
 
 </body>
+<script src="./js/main.js"></script>
 </html>
