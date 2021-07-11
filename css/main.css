@@ -262,16 +262,16 @@ body,h1,h2,h3,h4,h5, p {
 #project-contact-link {
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    text-decoration: #8A9FF9 wavy underline
 }
 #footer-link {
     text-decoration: none;
-    color: blanchedalmond;
+    color: #d3d8ea;
     font-weight: 500;
 }
 
 .footer-left {
-    color: blanchedalmond;
+    color: #d3d8ea;
     font-family: 'Roboto';
     font-size: 14px;
     margin: 0px;
@@ -279,7 +279,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .footer-right {
-    color: blanchedalmond;
+    color: #d3d8ea;
     font-family: 'Roboto';
     font-size: 14px;
     margin: 0px;
@@ -325,7 +325,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .footer-content {
-    color: blanchedalmond !important;
+    color: #d3d8ea !important;
 }
 
 .highlighted-text {
@@ -349,5 +349,5 @@ body,h1,h2,h3,h4,h5, p {
 
 .footer-hyperlinks, .footer-hyperlinks:visited {
     text-decoration: none !important; 
-    color: blanchedalmond !important; 
+    color: #d3d8ea !important; 
 }
