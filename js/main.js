@@ -107,7 +107,7 @@ let set_navigation_links = function() {
             'selected':false
         },
         {
-            'href':'mailto:maria@example.com',
+            'href':'mailto:maria.munir@uwaterloo.ca',
             'text':'Contact',
             'selected':false
         }
@@ -137,6 +137,16 @@ switch(window_path) {
       break;
     case "/project_page":
     case "/project_page.html":
+    case "/project_page_2":
+    case "/project_page_2.html":
+    case "/project_page_3":
+    case "/project_page_3.html":
+    case "/project_page_4":
+    case "/project_page_4.html":
+    case "/project_page_5":
+    case "/project_page_5.html":
+    case "/project_page_6":
+    case "/project_page_6.html":
         set_navigation_links();
         break;
     default:
