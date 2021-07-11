@@ -341,9 +341,9 @@ body,h1,h2,h3,h4,h5, p {
     /* .footer-left, .footer-right {
       text-align: center;
     } */
-    .project-persona-text{
+    .project-header > span {
 
-        padding-left: 0px;
+        line-height: 2.5em;
     }
   }
 
