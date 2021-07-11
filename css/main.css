@@ -205,6 +205,13 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto';
     text-align: left;
 }
+.project-persona-text{
+    font-size: 18px; 
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-left: 25px;
+}
 .project-strategy-text{
     font-size: 18px; 
     margin-bottom: 5px;
@@ -288,7 +295,9 @@ body,h1,h2,h3,h4,h5, p {
     max-width: 60%;
 }
 .image-persona {
-     max-height: 50%;
+     max-width: 75% !important;
+     margin-left: auto;
+     margin-right: auto;
  }
 
 #index_header_content{
@@ -332,6 +341,10 @@ body,h1,h2,h3,h4,h5, p {
     /* .footer-left, .footer-right {
       text-align: center;
     } */
+    .project-persona-text{
+
+        padding-left: 0px;
+    }
   }
 
 .footer-hyperlinks, .footer-hyperlinks:visited {

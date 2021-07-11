@@ -45,13 +45,13 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
             },
             {
-                'href': '/project_page.html',
+                'href': '/project_page_5.html',
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
                 'sub_description': 'HOK Architects - Toronto',
                 'image_url': './assets/projects/hok/HOK diagram wide 72ppi.png'
             },
             {
-                'href': '/project_page.html',
+                'href': '/project_page_6.html',
                 'descriptions':'School and Office Building Design <br><br>',
                 'sub_description': 'WalterFedy - Kitchener',
                 'image_url': './assets/projects/walterfedy/WF-image.PNG'
