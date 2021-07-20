@@ -131,7 +131,7 @@ body,h1,h2,h3,h4,h5, p {
     margin-top: 50px;
 }
 .project-header > span {
-    background-color:  #cbd5ff;
+    background-color: #dfe4fa;
     padding: 15px;
     letter-spacing: 1px;
 }
@@ -330,7 +330,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .highlighted-text {
-    background-color:  #cbd5ff;
+    background-color:  #dfe4fa;
     padding: 7px 4px 0px 0px;
 }
 
