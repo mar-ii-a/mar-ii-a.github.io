@@ -272,7 +272,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .footer-left {
-    color: #FDF2EB;
+    color: #FDF2EB  ;
     font-family: 'Roboto';
     font-size: 14px;
     margin: 0px;
@@ -330,7 +330,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .highlighted-text {
-    background-color:  #d3d8ea;
+    background-color:  #cbd5ff;
     padding: 7px 4px 0px 0px;
 }
 
