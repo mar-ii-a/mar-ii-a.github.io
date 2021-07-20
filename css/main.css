@@ -262,7 +262,8 @@ body,h1,h2,h3,h4,h5, p {
 #project-contact-link {
     text-decoration: none;
     color: black;
-    text-decoration: #8A9FF9 wavy underline
+    border-bottom: solid 0.2em #5671E1;
+
 }
 #footer-link {
     text-decoration: none;
