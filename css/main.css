@@ -60,9 +60,12 @@ body,h1,h2,h3,h4,h5, p {
     max-width: 50px;
 }
 .nav-logo {
+ 
+    width: 100%;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 10px !important;
     margin-top:15px
+ 
 }
 .title-header {
     text-align: left;
@@ -131,7 +134,7 @@ body,h1,h2,h3,h4,h5, p {
     margin-top: 50px;
 }
 .project-header > span {
-    background-color: #dfe4fa;
+    background-color: #e2b2ff;
     padding: 15px;
     letter-spacing: 1px;
 }
@@ -159,7 +162,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .project-results-div {
-    background:  #dfe4fa;
+    background:  #e2d2f6;
 }
 
 .project-background-title{
@@ -231,12 +234,12 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .project-persona-result-text {
-    background:  #dfe4fa;
+    background:  #e2d2f6;
 
 }
 
 .project-persona-div {
-    background:  #dfe4fa;
+    background:  #e2d2f6;
 }
 
 .persona-text {
@@ -256,13 +259,13 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .projects-principles-row {
-    background:  #dfe4fa;
+    background:  #e2d2f6;
 }
 
 #project-contact-link {
     text-decoration: none;
     color: black;
-    border-bottom: solid 0.2em #5671E1;
+    border-bottom: solid 0.2em #a767ff;
 
 }
 #footer-link {
@@ -330,7 +333,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .highlighted-text {
-    background-color:  #dfe4fa;
+    background-color:  #e2b2ff;
     padding: 7px 4px 0px 0px;
 }
 
@@ -339,7 +342,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 ::selection{
-    background: #FDF2EB;
+    background: #faf2b5;
 }
 
 
