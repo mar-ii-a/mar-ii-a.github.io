@@ -90,16 +90,16 @@ let generate_navigation_link = function(href, text, selected=false){
     }
 
     return `
-    <li class="${_class}"><a href="${href}" class="pure-menu-link">${text}</a></li> 
+    <li class="${_class} nav_link_item"><a href="${href}" class="pure-menu-link">${text}</a></li> 
     `
 };
 
-let set_navigation_links = function() {
+let set_navigation_links = function(bolded_text_text) {
     let navigation_links = [
         {
             'href':'/',
             'text':'Work',
-            'selected':true
+            'selected':false
         },
         {
             'href':'/about',
@@ -115,8 +115,10 @@ let set_navigation_links = function() {
 
     let navigation_element = document.getElementById('navigation_links');
     navigation_links.forEach(x => {
+        let isBolded = false
+        if (bolded_text_text == x.text){isBolded=true}
         navigation_element.insertAdjacentHTML('beforeend',
-        generate_navigation_link(x.href, x.text, x.selected))
+        generate_navigation_link(x.href, x.text, isBolded))
     });
 
 };
@@ -133,10 +135,12 @@ switch(window_path) {
     case "/":
       // code block
       set_project_rows();
-      set_navigation_links();
+      set_navigation_links('Work');
       break;
     case "/about.html":
     case "/about":
+        set_navigation_links('About');
+        break;
     case "/project_page":
     case "/project_page.html":
     case "/project_page_2":
