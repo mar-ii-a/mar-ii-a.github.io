@@ -355,6 +355,15 @@ body,h1,h2,h3,h4,h5, p {
         line-height: 2.5em;
     }
   }
+  @media only screen and (max-width: 855px) {
+    /* .footer-left, .footer-right {
+      text-align: center;
+    } */
+    .project-header > span {
+
+        line-height: 2.5em;
+    }
+  }
 
 .footer-hyperlinks, .footer-hyperlinks:visited {
     text-decoration: none !important; 

@@ -135,6 +135,8 @@ switch(window_path) {
       set_project_rows();
       set_navigation_links();
       break;
+    case "/about.html":
+    case "/about":
     case "/project_page":
     case "/project_page.html":
     case "/project_page_2":
