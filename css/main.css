@@ -144,6 +144,7 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Inconsolata', sans-serif;
     font-size: 18px;
     line-height: 1.1em;
+    margin-left: 0.5em;
 }
 
 .project-results {
@@ -163,6 +164,7 @@ body,h1,h2,h3,h4,h5, p {
 
 .project-results-div {
     background:  #e2d2f6;
+    margin-top: 10px;
 }
 
 .project-background-title{
@@ -207,6 +209,7 @@ body,h1,h2,h3,h4,h5, p {
     margin-bottom: 5px;
     font-family: 'Roboto';
     text-align: left;
+    line-height: 1.2em;
 }
 .project-persona-text{
     font-size: 18px; 
@@ -250,15 +253,15 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.1em;
-    padding-top: 20px;
     padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .project-designs-title{
     font-size: 24px; 
     margin-bottom: 5px;
     font-family: 'Roboto';
-    text-align: left;
+    text-align:left;
 }
 
 .projects-principles-row {
@@ -380,4 +383,14 @@ body,h1,h2,h3,h4,h5, p {
 .footer-hyperlinks, .footer-hyperlinks:visited {
     text-decoration: none !important; 
     color: black !important; 
+}
+
+#project-page-2-view-one {
+    max-height: 420px;
+    display: inline;
+}
+
+#project-page-2-legend-second-col {
+    margin: 0px;
+    margin-top: -5px;
 }

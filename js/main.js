@@ -131,19 +131,23 @@ let set_footer = function () {
             <p class="footer-left">
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1-2">
-                        <div class="">
                             <img src="./assets/footer/mail.svg" alt="" class="footer-link-image" style="padding-right: 25px;">
                             <img src="./assets/footer/linkedin logo.svg" alt="" class="footer-link-image">
-                        </div>
                     </div>         
                 </div>
             </p>
         </div>
-        <div class="pure-u-1 pure-u-md-1-4 footer-empty-content" >
-        </div>
+        
+        <div class="pure-u-1 pure-u-md-1-4 footer-empty-content"></div>
+
         <div class="pure-u-1 pure-u-md-1-3" >
-            <p class="footer-right">
-                <a id="resume-download-link" class="footer-hyperlinks" href="./assets/MariaMunir-Resume.pdf" target="_blank">View my resume here!</a>
+            <p class="footer-left" style="opacity: 0%;">Contact Me:</p>
+            <p class="footer-left">
+                <div class="">
+                    <p class="footer-right" style="margin: 0px;">
+                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/MariaMunir-Resume.pdf" target="_blank">View my resume here!</a>
+                    </p>
+                </div>
             </p>
         </div>
     </div>
@@ -188,4 +192,4 @@ switch(window_path) {
       console.log("where are you?");
   }
 
-//set_footer();
+set_footer();
