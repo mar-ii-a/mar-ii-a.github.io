@@ -1,0 +1,4 @@
+highlight color
+
+color in hex: D3D8EA
+colof in css: rgba(211, 216, 234, 1)
