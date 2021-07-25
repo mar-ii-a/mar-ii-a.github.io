@@ -20,19 +20,19 @@ let set_project_rows = function() {
             {
                 'href': '/project_page.html',
                 'descriptions':'Self-build housing solution for Canadian Immigrant Communities',
-                'sub_description': 'ARCH 393 - University of Waterloo',
+                'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
             },
             {
                 'href': '/project_page_2.html',
                 'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
-                'sub_description': 'ARCH 392 - University of Waterloo',
+                'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
             {
                 'href': '/project_page_3.html',
                 'descriptions':'Child-First Design for Portable School Classrooms <br><br>',
-                'sub_description': 'Buildings Workshop - University of Waterloo',
+                'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
             }
         ];
@@ -40,20 +40,20 @@ let set_project_rows = function() {
         [
             {
                 'href': '/project_page_4.html',
-                'descriptions':'Strategic Master Planning, Cancer Centre Design, and Hopsital Design' ,
-                'sub_description': 'Parkin Architects - Toronto',
+                'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
+                'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
                 'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
             },
             {
                 'href': '/project_page_5.html',
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
-                'sub_description': 'HOK Architects - Toronto',
+                'sub_description': 'HOK Architects - Research, Concept, Design, Development Coordination',
                 'image_url': './assets/projects/hok/HOK diagram wide 72ppi.png'
             },
             {
                 'href': '/project_page_6.html',
                 'descriptions':'School and Office Building Design <br><br>',
-                'sub_description': 'WalterFedy - Kitchener',
+                'sub_description': 'WalterFedy - Research, Concept, Design',
                 'image_url': './assets/projects/walterfedy/WF-image.PNG'
             }
         ];
