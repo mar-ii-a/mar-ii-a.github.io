@@ -132,8 +132,12 @@ let set_footer = function () {
             <p class="footer-left">
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1-2">
-                            <img src="./assets/footer/mail.svg" alt="" class="footer-link-image" style="padding-right: 25px;">
-                            <img src="./assets/footer/linkedin logo.svg" alt="" class="footer-link-image">
+                            <a href="mailto:maria.munir.uwaterloo.ca">
+                            <img src="./assets/footer/mail.svg" alt=" mail link" class="footer-link-image" style="padding-right: 25px;">
+                            </a>
+                            <a href="https://www.linkedin.com/in/maria-munir">
+                            <img src="./assets/footer/linkedin logo.svg" alt="go to linkedIn profile" class="footer-link-image">
+                            </a>
                     </div>         
                 </div>
             </p>
