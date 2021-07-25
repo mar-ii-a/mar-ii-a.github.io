@@ -144,6 +144,7 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Inconsolata', sans-serif;
     font-size: 18px;
     line-height: 1.1em;
+    margin-left: 0.5em;
 }
 
 .project-results {
@@ -163,6 +164,7 @@ body,h1,h2,h3,h4,h5, p {
 
 .project-results-div {
     background:  #e2d2f6;
+    margin-top: 10px;
 }
 
 .project-background-title{
@@ -207,6 +209,7 @@ body,h1,h2,h3,h4,h5, p {
     margin-bottom: 5px;
     font-family: 'Roboto';
     text-align: left;
+    line-height: 1.2em;
 }
 .project-persona-text{
     font-size: 18px; 
@@ -233,6 +236,9 @@ body,h1,h2,h3,h4,h5, p {
     margin-right: auto;
 }
 
+.footer-link-image {
+    height:20px;
+}
 .project-persona-result-text {
     background:  #e2d2f6;
 
@@ -247,15 +253,15 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.1em;
-    padding-top: 20px;
     padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .project-designs-title{
     font-size: 24px; 
     margin-bottom: 5px;
     font-family: 'Roboto';
-    text-align: left;
+    text-align:left;
 }
 
 .projects-principles-row {
@@ -275,19 +281,25 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .footer-left {
-    color: #FDF2EB  ;
-    font-family: 'Roboto';
-    font-size: 14px;
+    color: black  ;
+    font-family: 'Inconsolata';
+    font-size: xx-large;
+    font-weight: 800;
     margin: 0px;
     text-align: left;
+    padding-bottom: 10px;
+
 }
 
 .footer-right {
     color: #FDF2EB;
-    font-family: 'Roboto';
+    font-family: 'Inconsolata';
     font-size: 14px;
-    margin: 0px;
-    text-align: right;
+    font-weight: bold;
+}
+.footer-highlight {
+    background-color:  #faf2b5;
+    margin-right: -20px;
 }
 
 .image-qual {
@@ -348,6 +360,15 @@ body,h1,h2,h3,h4,h5, p {
 .pure-menu-link:hover {
     background-color: #E2CDF7 !important;
 }
+.footer{
+    background-color: #fefced !important;
+}
+.footer-hyperlinks:hover{
+    border-bottom: solid 0.2em #F0D200 !important;
+}
+
+}
+
 @media only screen and (max-width: 767px) {
     /* .footer-left, .footer-right {
       text-align: center;
@@ -355,6 +376,9 @@ body,h1,h2,h3,h4,h5, p {
     .project-header > span {
 
         line-height: 2.5em;
+    }
+    .footer-left {
+        text-align: center;
     }
   }
   @media only screen and (max-width: 855px) {
@@ -369,5 +393,15 @@ body,h1,h2,h3,h4,h5, p {
 
 .footer-hyperlinks, .footer-hyperlinks:visited {
     text-decoration: none !important; 
-    color: #FDF2EB !important; 
+    color: black !important; 
+}
+
+#project-page-2-view-one {
+    max-height: 420px;
+    display: inline;
+}
+
+#project-page-2-legend-second-col {
+    margin: 0px;
+    margin-top: -5px;
 }

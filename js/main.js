@@ -123,9 +123,43 @@ let set_navigation_links = function(bolded_text_text) {
 
 };
 
-(function () {
+let set_footer = function () {
+    let footer_html =  `
+    <div class="pricing-tables pure-g footer-content">
+        <div class="pure-u-1 pure-u-md-1-3" >
+        <p class="footer-left"><span class="footer-highlight">Let's connect!</span> </p>
+ 
+            <p class="footer-left">
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-2">
+                            <img src="./assets/footer/mail.svg" alt="" class="footer-link-image" style="padding-right: 25px;">
+                            <img src="./assets/footer/linkedin logo.svg" alt="" class="footer-link-image">
+                    </div>         
+                </div>
+            </p>
+        </div>
+        
+        <div class="pure-u-1 pure-u-md-1-4 footer-empty-content"></div>
 
-})();
+        <div class="pure-u-1 pure-u-md-1-3" >
+            <p class="footer-left" style="opacity: 0%;">Let's connect!</p>
+            <p class="footer-left">
+                <div class="">
+                    <p class="footer-right" style="margin: 0px;">
+                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/MariaMunir-Resume.pdf" target="_blank">View my resume here!</a>
+                    </p>
+                </div>
+            </p>
+        </div>
+    </div>
+`
+    let page_footer_element = document.getElementById("page-footer");
+    page_footer_element.insertAdjacentHTML('beforeend', footer_html);
+}
+
+// (function () {
+
+// })();
 
 
 const window_path = window.location.pathname
@@ -159,4 +193,4 @@ switch(window_path) {
       console.log("where are you?");
   }
 
-console.log(window.location);
+set_footer();
