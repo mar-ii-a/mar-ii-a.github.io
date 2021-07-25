@@ -127,7 +127,8 @@ let set_footer = function () {
     let footer_html =  `
     <div class="pricing-tables pure-g footer-content">
         <div class="pure-u-1 pure-u-md-1-3" >
-            <p class="footer-left">Contact Me:</p>
+        <p class="footer-left"><span class="footer-highlight">Let's connect!</span> </p>
+ 
             <p class="footer-left">
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1-2">
@@ -141,7 +142,7 @@ let set_footer = function () {
         <div class="pure-u-1 pure-u-md-1-4 footer-empty-content"></div>
 
         <div class="pure-u-1 pure-u-md-1-3" >
-            <p class="footer-left" style="opacity: 0%;">Contact Me:</p>
+            <p class="footer-left" style="opacity: 0%;">Let's connect!</p>
             <p class="footer-left">
                 <div class="">
                     <p class="footer-right" style="margin: 0px;">
