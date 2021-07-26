@@ -28,6 +28,10 @@ body,h1,h2,h3,h4,h5, p {
     background-color: transparent;
     height: 260px;
 }
+.project-image:hover{
+    outline: #e2d2f6 solid 4px;
+
+}
 
 .project_description {
     text-align: left;
@@ -322,6 +326,7 @@ body,h1,h2,h3,h4,h5, p {
 
 #project_display_top_row{
     margin-bottom: 0px;
+
 }
 
 #project_display_bottom_row_title{
