@@ -10,6 +10,11 @@ body,h1,h2,h3,h4,h5, p {
     margin-bottom: 15px;
     text-align: left;
 }
+.project-main-image{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto
+}
 
 .index-sub_header{
     font-family: 'Roboto', sans-serif;
@@ -29,7 +34,7 @@ body,h1,h2,h3,h4,h5, p {
     height: 260px;
 }
 .project-image:hover{
-    outline: #e2d2f6 solid 4px;
+    outline: #e2d2f solid 4px;
 
 }
 
