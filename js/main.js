@@ -42,13 +42,13 @@ let set_project_rows = function() {
                 'href': '/project_page_4.html',
                 'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
                 'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
-                'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
+                'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
             {
                 'href': '/project_page_5.html',
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
                 'sub_description': 'HOK Architects - Research, Concept, Design, Development Coordination',
-                'image_url': './assets/projects/hok/HOK diagram wide 72ppi.png'
+                'image_url': './assets/projects/hok/HOK_diagram_wide_150ppi.png'
             },
             {
                 'href': '/project_page_6.html',
@@ -136,7 +136,7 @@ let set_footer = function () {
                             <img src="./assets/footer/mail.svg" alt=" mail link" class="footer-link-image" style="padding-right: 25px;">
                             </a>
                             <a href="https://www.linkedin.com/in/maria-munir">
-                            <img src="./assets/footer/linkedin logo.svg" alt="go to linkedIn profile" class="footer-link-image">
+                            <img src="./assets/footer/linkedin_logo.svg" alt="go to linkedIn profile" class="footer-link-image">
                             </a>
                     </div>         
                 </div>
