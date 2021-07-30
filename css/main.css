@@ -372,6 +372,9 @@ body,h1,h2,h3,h4,h5, p {
     border-bottom: solid 0.2em #F0D200 !important;
 }
 
+.cover {
+	width : 75%;
+
 }
 
 @media only screen and (max-width: 767px) {
