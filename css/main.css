@@ -29,7 +29,7 @@ body,h1,h2,h3,h4,h5, p {
     height: 260px;
 }
 .project-image:hover{
-    outline: #e2d2f6 solid 4px;
+    outline: #e2d2f6 solid 4px !important;
 
 }
 
@@ -178,7 +178,6 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto';
     text-align: left;
 }
-
 .project-phase-title{
     font-size: 20px; 
     font-weight:800;
@@ -267,6 +266,15 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Roboto';
     text-align:left;
 }
+.project-principles-title{
+    font-size: 18px; 
+    margin-bottom: none;
+    font-family: 'Inconsolata';
+    text-align:left;
+    font-weight: 800;
+
+
+}
 
 .projects-principles-row {
     background:  #e2d2f6;
@@ -276,7 +284,21 @@ body,h1,h2,h3,h4,h5, p {
     text-decoration: none;
     color: black;
     border-bottom: solid 0.2em #a767ff;
-
+}
+#project-contact-link:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 0.2em #e2d2f6;
+}
+#project-index-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 0.2em #e2d2f6;
+}
+#project-index-link:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 0.2em #a767ff;
 }
 #footer-link {
     text-decoration: none;
