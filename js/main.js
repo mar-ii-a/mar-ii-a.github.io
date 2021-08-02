@@ -18,40 +18,42 @@ let set_project_rows = function() {
     let top_row_projects =
         [
             {
-                'href': '/project_page.html',
+                'href': '/the_welcome_wagon.html',
                 'descriptions':'Self-build housing solution for Canadian Immigrant Communities',
                 'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
             },
             {
-                'href': '/project_page_2.html',
+                'href': '/plug_and_play.html',
+                'descriptions':'Child-First Design for Portable School Classrooms <br><br>',
+                'sub_description': 'Academic - Research, Concept, Design',
+                'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
+            },
+            {
+                'href': '/parkin_architects.html',
+                'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
+                'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
+                'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
+            },
+
+
+        ];
+    let bottom_row_projects =
+        [
+            {
+                'href': '/shared_space.html',
                 'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
                 'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
             {
-                'href': '/project_page_3.html',
-                'descriptions':'Child-First Design for Portable School Classrooms <br><br>',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
-            }
-        ];
-    let bottom_row_projects =
-        [
-            {
-                'href': '/project_page_4.html',
-                'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
-                'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
-                'image_url': './assets/projects/parkin/Grand-River Siteplan.jpg'
-            },
-            {
-                'href': '/project_page_5.html',
+                'href': '/hok.html',
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
                 'sub_description': 'HOK Architects - Research, Concept, Design, Development Coordination',
                 'image_url': './assets/projects/hok/HOK diagram wide 72ppi.png'
             },
             {
-                'href': '/project_page_6.html',
+                'href': '/walterfedy.html',
                 'descriptions':'School and Office Building Design <br><br>',
                 'sub_description': 'WalterFedy - Research, Concept, Design',
                 'image_url': './assets/projects/walterfedy/WF-image.PNG'
@@ -179,18 +181,18 @@ switch(window_path) {
     case "/about":
         set_navigation_links('About');
         break;
-    case "/project_page":
-    case "/project_page.html":
-    case "/project_page_2":
-    case "/project_page_2.html":
-    case "/project_page_3":
-    case "/project_page_3.html":
-    case "/project_page_4":
-    case "/project_page_4.html":
-    case "/project_page_5":
-    case "/project_page_5.html":
-    case "/project_page_6":
-    case "/project_page_6.html":
+    case "/the_welcome_wagon":
+    case "/the_welcome_wagon.html":
+    case "/plug_and_play":
+    case "/plug_and_play.html":
+    case "/parkin_architects":
+    case "/parkin_architects.html":
+    case "/shared_space":
+    case "/shared_space.html":
+    case "/hok":
+    case "/hok.html":
+    case "/walterfedy":
+    case "/walterfedy.html":
         set_navigation_links();
         break;
     default:
