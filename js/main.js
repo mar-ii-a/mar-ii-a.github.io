@@ -1,6 +1,6 @@
 let generate_index_project_cell = function(href, description, sub_description, image_url){
     return  `
-    <div class="pure-u-1 pure-u-md-1-3">
+    <div class="pure-u-1 pure-u-md-1-2">
         <div class="pricing-table">
             <a href="${href}">
             <div class="project-image"  style="background-image: url('${image_url}');"></div>
@@ -25,27 +25,33 @@ let set_project_rows = function() {
             },
             {
                 'href': '/plug_and_play.html',
-                'descriptions':'Child-First Design for Portable School Classrooms <br><br>',
+                'descriptions':'Child-First Design for Portable School Classrooms',
                 'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
             },
+
+
+        ];
+        let middle_row_projects =
+        [
+
             {
                 'href': '/parkin_architects.html',
                 'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
                 'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
                 'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
-
-
-        ];
-    let bottom_row_projects =
-        [
             {
                 'href': '/shared_space.html',
                 'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
                 'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
+
+        ];
+    let bottom_row_projects =
+        [
+
             {
                 'href': '/hok.html',
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
@@ -68,7 +74,14 @@ let set_project_rows = function() {
                                                         project_details.sub_description,
                                                         project_details.image_url));
             });
-
+    let middle_row_element = document.getElementById('project_display_middle_row');
+        middle_row_projects.forEach(project_details => {
+            middle_row_element.insertAdjacentHTML('beforeend',
+                            generate_index_project_cell(project_details.href,
+                                                        project_details.descriptions,
+                                                        project_details.sub_description,
+                                                        project_details.image_url));
+            });
     let bottom_row_element = document.getElementById('project_display_bottom_row');
         bottom_row_projects.forEach(project_details => {
             bottom_row_element.insertAdjacentHTML('beforeend',

@@ -38,7 +38,7 @@ body,h1,h2,h3,h4,h5, p {
     background-position: center;
     background-size:cover;
     background-color: transparent;
-    height: 260px;
+    height: 345px;
 }
 .project-image:hover{
     outline: #e2d2f6 solid 4px !important;
@@ -111,7 +111,6 @@ body,h1,h2,h3,h4,h5, p {
 
 .nav-bar {
     margin-bottom: 0px;
-    background-color: #F9F5FE;
 }
 
 
