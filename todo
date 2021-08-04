@@ -1,4 +1,7 @@
+move nav in so it doesn't go over the margin
 update the caption font family
-add about and contact link
+edit hover actions
+add nav on scroll up
+add hover to make text change color
 format footer font, highlighting
 clean up the css last
