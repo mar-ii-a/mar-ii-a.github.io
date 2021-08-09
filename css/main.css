@@ -28,12 +28,20 @@ body,h1,h2,h3,h4,h5, p {
     margin-left: 10px;
 }
 
-.custom_color {
-}
+
 .background-color{
     background-color: #F9F5FE;
 }
-
+.fit-screen{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.down-icon {
+    max-height: 25px;
+    max-width: 25px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
 .project-image{
     background-position: center;
     background-size:cover;
@@ -424,8 +432,9 @@ body,h1,h2,h3,h4,h5, p {
         line-height: 2.5em;
     }
     .footer-left {
-        text-align: center;
+        text-align: center;   
     }
+    #my-swirl { display: none;} 
   }
   @media only screen and (max-width: 855px) {
     /* .footer-left, .footer-right {
