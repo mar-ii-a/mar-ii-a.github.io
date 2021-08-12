@@ -137,9 +137,22 @@ let set_navigation_links = function(bolded_text_text) {
     });
 
 };
+let set_footer_decal = function () {
+    let footer_decal_html =  `
+    <!-- background swirl -->
+    <div class="pure-u-1 pure-u-md-1-1">
+        <div class="pricing-table fit-screen" style="padding: 0px;">
+            <img src="./assets/foot-decal_4x.png" alt="" class="pure-img" id = "my-swirl">
+        </div>
+    </div>
+    `
+    let page_footer_element = document.getElementById("page-footer-decal");
+    page_footer_element.insertAdjacentHTML('beforeend', footer_decal_html);
+}
 
 let set_footer = function () {
     let footer_html =  `
+    
     <div class="pricing-tables pure-g footer-content">
         <div class="pure-u-1 pure-u-md-1-3" >
         <p class="footer-left"><span class="footer-highlight">Let's connect!</span> </p>
@@ -150,7 +163,7 @@ let set_footer = function () {
                             <a href="mailto:maria.munir.uwaterloo.ca">
                             <img src="./assets/footer/mail.svg" alt=" mail link" class="footer-link-image" style="padding-right: 25px;">
                             </a>
-                            <a href="https://www.linkedin.com/in/maria-munir">
+                            <a href="https://www.linkedin.com/in/maria-munir" target="_blank">
                             <img src="./assets/footer/linkedin_logo.svg" alt="go to linkedIn profile" class="footer-link-image">
                             </a>
                     </div>         
@@ -211,5 +224,7 @@ switch(window_path) {
     default:
       console.log("where are you?");
   }
+
+set_footer_decal();
 
 set_footer();

@@ -14,14 +14,14 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .index-sub_header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     color: black;
     font-size: xx-large;
     margin-top: 0px;
     margin-left: 10px;
 }
 .index-sub_header-2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     color: black;
     font-size:x-large;
     margin-top: 0px;
@@ -30,7 +30,7 @@ body,h1,h2,h3,h4,h5, p {
 
 
 .background-color{
-    background-color: #F9F5FE;
+    background-color: #F6EDFF;
 }
 .fit-screen{
     margin-right: 0px !important;
@@ -100,7 +100,7 @@ body,h1,h2,h3,h4,h5, p {
 .index-header-content {
     text-align: left;
     margin-left: 0px;
-    background-color: #F9F5FE;
+    background-color: #F6EDFF;
 }
 
 .title-subtitle{
@@ -130,7 +130,7 @@ body,h1,h2,h3,h4,h5, p {
 }
 
 .about-sub_header {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     color: black;
     font-size: x-large;
     margin-top: 0px;
@@ -146,8 +146,6 @@ body,h1,h2,h3,h4,h5, p {
     width:450px
 }
 
-
-
 .project-title {
     text-align: left;
     margin-left: 10px
@@ -157,13 +155,12 @@ body,h1,h2,h3,h4,h5, p {
     font-family: 'Inconsolata', sans-serif;
     color: black;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 50px;
 }
 .project-header > span {
-    background-color: #e2b2ff;
-    padding: 15px;
-    letter-spacing: 1px;
+    background-color:  #e2b2ff;
+    padding: 9px 6px 1px 1px;
 }
 
 .project-sub-header {
