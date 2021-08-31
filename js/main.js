@@ -24,32 +24,31 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
             },
             {
-                'href': '/plug_and_play.html',
-                'descriptions':'Child-First Design for Portable School Classrooms',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
+                'href': '/diario.html',
+                'descriptions':'Diary App UX Case Study <br><br>',
+                'sub_description': 'Personal Project - Research, Analysis',
+                'image_url': './assets/projects/diario/diario-p-page-2X.png'
             },
 
 
         ];
         let middle_row_projects =
         [
-
+            {
+                'href': '/plug_and_play.html',
+                'descriptions':'Child-First Design for Portable School Classrooms',
+                'sub_description': 'Academic - Research, Concept, Design',
+                'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
+            },
             {
                 'href': '/parkin_architects.html',
                 'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
                 'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
                 'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
-            {
-                'href': '/shared_space.html',
-                'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
-            },
 
         ];
-    let bottom_row_projects =
+        let middle_row_projects_2 =
         [
 
             {
@@ -57,6 +56,23 @@ let set_project_rows = function() {
                 'descriptions':'Conceptual Design Pearson Airport Terminal 3 Extensive Rennovation',
                 'sub_description': 'HOK Architects - Research, Concept, Design, Development Coordination',
                 'image_url': './assets/projects/hok/HOK_diagram_wide_150ppi.png'
+            },
+            {
+                'href': '/about.html',
+                'descriptions':'About Me <br><br>',
+                'sub_description': 'Learn about my approach, interests, and contact info!',
+                'image_url': './assets/about/me2.jpg'
+            },
+
+        ];
+    let bottom_row_projects =
+        [
+
+            {
+                'href': '/shared_space.html',
+                'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
+                'sub_description': 'Academic - Research, Concept, Design',
+                'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
             {
                 'href': '/walterfedy.html',
@@ -81,6 +97,14 @@ let set_project_rows = function() {
                                                         project_details.descriptions,
                                                         project_details.sub_description,
                                                         project_details.image_url));
+            });
+    let middle_row_projects_2_element = document.getElementById('project_display_middle_row_2');
+         middle_row_projects_2.forEach(project_details => {
+            middle_row_projects_2_element.insertAdjacentHTML('beforeend',
+                                generate_index_project_cell(project_details.href,
+                                                            project_details.descriptions,
+                                                            project_details.sub_description,
+                                                            project_details.image_url));
             });
     let bottom_row_element = document.getElementById('project_display_bottom_row');
         bottom_row_projects.forEach(project_details => {
@@ -209,14 +233,18 @@ switch(window_path) {
         break;
     case "/the_welcome_wagon":
     case "/the_welcome_wagon.html":
-    case "/plug_and_play":
-    case "/plug_and_play.html":
+    case "/diario":
+    case "/diario.html":
     case "/parkin_architects":
     case "/parkin_architects.html":
-    case "/shared_space":
-    case "/shared_space.html":
+    case "/plug_and_play":
+    case "/plug_and_play.html":
     case "/hok":
     case "/hok.html":
+    case "/about":
+    case "/about.html":
+    case "/shared_space":
+    case "/shared_space.html":
     case "/walterfedy":
     case "/walterfedy.html":
         set_navigation_links();
