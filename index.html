@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="https://purecss.io/layouts/pricing/styles.css">
     <link rel="stylesheet" href="./css/main.css">
     <style>
-
+    html {
+    scroll-behavior: smooth;
+  }
     </style>
 
 </head>
@@ -47,8 +49,9 @@
                                          Airport. I get most excited when I can find user problems and design solutions to create joyful experiences. </p>
             <p class= "index-sub_header-2">Currently seeking UX roles for my internship in January 2022.</p>
              <!-- bottom arrow -->
-             <div class="pricing-tables" style="padding: 0px;">
-                <img src="./assets/below_arrow.svg" alt="down arrow" class="pure-img down-icon">
+             <div class="pricing-tables" style="padding: 0px;" >
+                <a href="#works"><img src="./assets/below_arrow.svg" alt="down arrow" class="pure-img down-icon"></a>
+                
             </div>
         </div>
               
@@ -57,12 +60,13 @@
 
 </div>
        <!-- background swirl -->
-       <div class="pure-u-1 pure-u-md-1-1">
-        <div class="pricing-table fit-screen" style="padding: 0px;">
+       <div class="pure-u-1 pure-u-md-1-1" >
+        <div class="pricing-table fit-screen" style="padding: 0px;" id = "splash">
             <img src="./assets/bottom_decal.svg" alt="" class="pure-img" id = "my-swirl">
         </div>
     </div>
-    <div class="pricing-tables pure-g" id="project_display_top_row_title">
+<div class = "main" id = "works">
+    <div class="pricing-tables pure-g" id="project_display_top_row_title ">
 
     </div>
     <div class="pricing-tables pure-g" id="project_display_top_row">
@@ -86,7 +90,7 @@
     <div class="pricing-tables pure-g" id="project_display_bottom_row">
         <!-- to inject project cells -->
     </div>
-    
+</div>   
     <!-- end pricing-tables -->
 
 </div>
