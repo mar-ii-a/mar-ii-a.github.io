@@ -179,7 +179,7 @@ ul {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    line-height: 1.1em;
+    line-height: 1.6em;
 }
 
 .project-results-header {
@@ -192,13 +192,15 @@ ul {
 
 .project-results-div {
     background:  #e2d2f6;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 .project-background-title{
     font-size: xx-large; 
     font-weight:800;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: 'Roboto';
     text-align: left;
 }
@@ -219,35 +221,37 @@ ul {
 
 .project-image-caption{
     font-size: 14px; 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Roboto';
     text-align: left;
 }
 
 .project-image-text{
     font-size: 18px; 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Roboto';
     text-align: left;
 }
 
 .project-context-text{
     font-size: 18px; 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Roboto';
     text-align: left;
-    line-height: 1.2em;
+    line-height: 1.6em;
 }
 .project-persona-text{
     font-size: 18px; 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Roboto';
     text-align: left;
     padding-left: 25px;
+    line-height: 1.6em;
+
 }
 .project-strategy-text{
     font-size: 18px; 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Inconsolata';
     text-align: left;
 }
@@ -286,7 +290,7 @@ ul {
 
 .project-designs-title{
     font-size: 24px; 
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: 'Roboto';
     text-align:left;
 }
@@ -302,6 +306,8 @@ ul {
 
 .projects-principles-row {
     background:  #e2d2f6;
+    margin-bottom: 15px;
+
 }
 
 #project-contact-link {
