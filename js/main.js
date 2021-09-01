@@ -42,7 +42,7 @@ let set_project_rows = function() {
             },
             {
                 'href': '/parkin_architects.html',
-                'descriptions':'Strategic Planning, Cancer Centre Design, and Hopsital Design' ,
+                'descriptions':'Strategic Planning, Cancer Centre Design, and Hospital Design' ,
                 'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
                 'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
