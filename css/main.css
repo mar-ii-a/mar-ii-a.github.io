@@ -411,8 +411,7 @@ ul {
     text-align: left;
 }
 
-::selection{
-    background: #faf2b5;
+::selection{    background: #faf2b5;
 }
 
 .pure-menu-link:hover {

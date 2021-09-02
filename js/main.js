@@ -58,10 +58,10 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/hok/HOK_diagram_wide_150ppi.png'
             },
             {
-                'href': '/about.html',
-                'descriptions':'About Me <br><br>',
-                'sub_description': 'Learn about my approach, interests, and contact info!',
-                'image_url': './assets/about/me2.jpg'
+                'href': '/shared_space.html',
+                'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
+                'sub_description': 'Academic - Research, Concept, Design',
+                'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
             },
 
         ];
@@ -69,16 +69,16 @@ let set_project_rows = function() {
         [
 
             {
-                'href': '/shared_space.html',
-                'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
-            },
-            {
                 'href': '/walterfedy.html',
                 'descriptions':'School and Office Building Design <br><br>',
                 'sub_description': 'WalterFedy - Research, Concept, Design',
                 'image_url': './assets/projects/walterfedy/WF-image.PNG'
+            },
+            {
+                'href': '/index.html',
+                'descriptions':'Website Design - Coming Soon <br><br>',
+                'sub_description': 'Stay tuned for more!',
+                'image_url': './assets/construction.svg'
             }
         ];
 
