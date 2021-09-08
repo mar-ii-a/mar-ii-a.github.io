@@ -116,7 +116,7 @@ let set_project_rows = function() {
             });
 }
 
-let generate_navigation_link = function(href, text, selected=false){
+let generate_navigation_link = function(href, text, selected=false, target){
     let _class;
     if (selected)
     {
@@ -129,7 +129,7 @@ let generate_navigation_link = function(href, text, selected=false){
     }
 
     return `
-    <li class="${_class} nav_link_item"><a href="${href}" class="pure-menu-link">${text}</a></li> 
+    <li class="${_class} nav_link_item"><a href="${href}" target="${target}" class="pure-menu-link">${text} </a></li> 
     `
 };
 
@@ -138,17 +138,26 @@ let set_navigation_links = function(bolded_text_text) {
         {
             'href':'/',
             'text':'Work',
-            'selected':false
+            'selected':false,
+            'target' :'_self'
         },
         {
             'href':'/about',
             'text':'About',
-            'selected':false
+            'selected':false,
+            'target' :''
+        },
+        {
+            'href':'./assets/MariaMunir-Resume.pdf',
+            'text':'Resume',
+            'selected':false,
+            'target' :''
         },
         {
             'href':'mailto:maria.munir@uwaterloo.ca',
             'text':'Contact',
-            'selected':false
+            'selected':false,
+            'target' :'_self'
         }
     ]
 
