@@ -35,16 +35,16 @@ let set_project_rows = function() {
         let middle_row_projects =
         [
             {
+                'href': 'https://devpost.com/software/givemeasign',
+                'descriptions':'Give Me A Sign',
+                'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
+                'image_url': './assets/projects/GiveMeASign/projectImage.png'
+            },
+            {
                 'href': '/plug_and_play.html',
                 'descriptions':'Child-First Design for Portable School Classrooms',
                 'sub_description': 'Academic - Research, Concept, Design',
                 'image_url': './assets/projects/plug_and_play/ccover0.25x.png'
-            },
-            {
-                'href': '/parkin_architects.html',
-                'descriptions':'Strategic Planning, Cancer Centre Design, and Hospital Design' ,
-                'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
-                'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
 
         ];
@@ -58,13 +58,13 @@ let set_project_rows = function() {
                 'image_url': './assets/projects/hok/HOK_diagram_wide_150ppi.png'
             },
             {
-                'href': '/shared_space.html',
-                'descriptions':'Human - Centred Affordable Housing Solution for Downtown Toronto',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/human_centred_housing/bcover0.25x.png'
+                'href': '/parkin_architects.html',
+                'descriptions':'Strategic Planning, Cancer Centre Design, and Hospital Design' ,
+                'sub_description': 'Parkin Architects - Research, Concept, Design, Testing, Analysis',
+                'image_url': './assets/projects/parkin/Grand_River_Siteplan.jpg'
             },
 
-        ];
+        ];/*
     let bottom_row_projects =
         [
 
@@ -80,7 +80,7 @@ let set_project_rows = function() {
                 'sub_description': 'Stay tuned for more!',
                 'image_url': './assets/construction.svg'
             }
-        ];
+        ];*/
 
     let top_row_element = document.getElementById('project_display_top_row');
         top_row_projects.forEach(project_details => {
@@ -105,7 +105,7 @@ let set_project_rows = function() {
                                                             project_details.descriptions,
                                                             project_details.sub_description,
                                                             project_details.image_url));
-            });
+            });/*
     let bottom_row_element = document.getElementById('project_display_bottom_row');
         bottom_row_projects.forEach(project_details => {
             bottom_row_element.insertAdjacentHTML('beforeend',
@@ -113,7 +113,7 @@ let set_project_rows = function() {
                                                         project_details.descriptions,
                                                         project_details.sub_description,
                                                         project_details.image_url));
-            });
+            });*/
 }
 
 let generate_navigation_link = function(href, text, selected=false, target=''){
