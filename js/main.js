@@ -38,7 +38,7 @@ let set_project_rows = function() {
                 'href': 'https://devpost.com/software/givemeasign',
                 'descriptions':'Give Me A Sign',
                 'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
-                'image_url': './assets/projects/GiveMeASign/projectImage.png'
+                'image_url': './assets/projects/GiveMeASign/project_image.png'
             },
             {
                 'href': '/plug_and_play.html',
