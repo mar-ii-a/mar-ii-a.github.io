@@ -18,10 +18,11 @@ let set_project_rows = function() {
     let top_row_projects =
         [
             {
-                'href': '/the_welcome_wagon.html',
-                'descriptions':'Self-build housing solution for Canadian Immigrant Communities',
-                'sub_description': 'Academic - Research, Concept, Design',
-                'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
+                'href': '/givemeasign.html',
+                'descriptions':'Give Me A Sign',
+                'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
+                'image_url': './assets/projects/GiveMeASign/project_image-cover.png'
+
             },
             {
                 'href': '/diario.html',
@@ -35,10 +36,10 @@ let set_project_rows = function() {
         let middle_row_projects =
         [
             {
-                'href': 'https://devpost.com/software/givemeasign',
-                'descriptions':'Give Me A Sign',
-                'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
-                'image_url': './assets/projects/GiveMeASign/project_image.png'
+                'href': '/the_welcome_wagon.html',
+                'descriptions':'Self-build housing solution for Canadian Immigrant Communities',
+                'sub_description': 'Academic - Research, Concept, Design',
+                'image_url': './assets/projects/the_welcome_wagon/cover35ppi.png'
             },
             {
                 'href': '/plug_and_play.html',
