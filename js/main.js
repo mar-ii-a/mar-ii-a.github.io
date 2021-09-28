@@ -26,7 +26,7 @@ let set_project_rows = function() {
             },
             {
                 'href': '/diario.html',
-                'descriptions':'Diary App UX Case Study <br><br>',
+                'descriptions':'Diary App UX Case Study ',
                 'sub_description': 'Personal Project - Research, Analysis',
                 'image_url': './assets/projects/diario/diario-p-page-2X.png'
             },
