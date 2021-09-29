@@ -243,6 +243,8 @@ switch(window_path) {
         break;
     case "/the_welcome_wagon":
     case "/the_welcome_wagon.html":
+    case "/give_me_a_sign":
+    case "/givemeasign.html":   
     case "/diario":
     case "/diario.html":
     case "/parkin_architects":
