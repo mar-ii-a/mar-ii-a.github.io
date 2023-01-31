@@ -23,6 +23,7 @@ let set_project_rows = function() {
                 'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
                 'image_url': './assets/projects/GiveMeASign/Landing.png'
 
+
             },
             {
                 'href': '/diario.html',
