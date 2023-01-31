@@ -21,7 +21,7 @@ let set_project_rows = function() {
                 'href': '/givemeasign.html',
                 'descriptions':'Give Me A Sign',
                 'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
-                'image_url': './assets/projects/GiveMeASign/project_image-cover.png'
+                'image_url': './assets/projects/GiveMeASign/top-frame.png'
 
             },
             {
@@ -30,7 +30,6 @@ let set_project_rows = function() {
                 'sub_description': 'Personal Project - Research, Analysis',
                 'image_url': './assets/projects/diario/diario-p-page-2X.png'
             },
-
 
         ];
         let middle_row_projects =
@@ -149,7 +148,7 @@ let set_navigation_links = function(bolded_text_text) {
             'target': ""
         },
         {
-            'href':'./assets/MariaMunir-Resume.pdf',
+            'href':'./assets/Maria_Munir-Resume-2022',
             'text':'Resume',
             'selected':false,
             'target': "target='_blank'"

@@ -262,6 +262,11 @@ ul {
     width: 75%;
 }
 
+.project-svg-image {
+    filter: blur (0px);
+    transform: translate3d(0,0,0)
+}
+
 .project-centerd-image {
     margin-left: auto;
     margin-right: auto;
@@ -415,7 +420,8 @@ ul {
 }
 
 .pure-menu-link:hover {
-    background-color: #fefced !important;
+    background-color: #e2d2f6 !important;
+
 }
 .footer{
     background-color: #fefced !important;
