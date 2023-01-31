@@ -148,7 +148,7 @@ let set_navigation_links = function(bolded_text_text) {
             'target': ""
         },
         {
-            'href':'./assets/Maria_Munir-Resume-2022',
+            'href':'./assets/MariaMunir-Resume.pdf',
             'text':'Resume',
             'selected':false,
             'target': "target='_blank'"
