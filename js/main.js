@@ -21,7 +21,7 @@ let set_project_rows = function() {
                 'href': '/givemeasign.html',
                 'descriptions':'Give Me A Sign',
                 'sub_description': 'Hack the North 2021 - Research, Branding, Interface Design',
-                'image_url': './assets/projects/GiveMeASign/top-frame.png'
+                'image_url': './assets/projects/GiveMeASign/Landing.png'
 
             },
             {
