@@ -211,7 +211,7 @@ let set_footer = function () {
             <p class="footer-left">
                 <div class="">
                     <p class="footer-right" style="margin: 0px;">
-                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/MariaMunir-Resume.pdf" target="_blank">View my resume here!</a>
+                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/Maria_Munir-Resume-2022" target="_blank">View my resume here!</a>
                     </p>
                 </div>
             </p>
