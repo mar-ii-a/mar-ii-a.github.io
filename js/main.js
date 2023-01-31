@@ -148,7 +148,7 @@ let set_navigation_links = function(bolded_text_text) {
             'target': ""
         },
         {
-            'href':'./assets/Maria_Munir-Resume-2022',
+            'href':'./assets/Maria_Munir-Resume-2022.pdf',
             'text':'Resume',
             'selected':false,
             'target': "target='_blank'"
@@ -211,7 +211,7 @@ let set_footer = function () {
             <p class="footer-left">
                 <div class="">
                     <p class="footer-right" style="margin: 0px;">
-                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/Maria_Munir-Resume-2022" target="_blank">View my resume here!</a>
+                        <a id="resume-download-link" class="footer-hyperlinks" href="./assets/Maria_Munir-Resume-2022.pdf" target="_blank">View my resume here!</a>
                     </p>
                 </div>
             </p>
